@@ -11775,7 +11775,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-header .picture {
   height: 220px;
-  width: auto;
+  width: 220px;
   max-width: none;
   object-fit: cover;
   object-position: center 30%;
@@ -11810,13 +11810,13 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   height: 24px;
   border-radius: 0.125rem;
   background: white;
-  color: #3451C7;
+  color: #370765;
 }
 
 .resume-section-title {
   font-size: 1.25rem;
   position: relative;
-  color: #3451C7;
+  color: #370765;
 }
 
 .resume-section-title:after {
