@@ -406,7 +406,7 @@ figure {
 
 img,
 svg {
-  margin-top: 15px;
+  
   vertical-align: middle;
 }
 
@@ -11767,13 +11767,13 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header .resume-wrapper-inner {
-  background: #4A2D7A;
+  background: #4A2D7A !important;
 }
 
 .resume-header .picture {
   width: 220px;
-  height: 220px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
 }
 
 .resume-header .name {
@@ -11941,7 +11941,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   }
   .resume-header .picture {
     width: 140px;
-    height: 140px;
+    height: auto;
     border-radius: 4px;
   }
   .resume-header .name {
