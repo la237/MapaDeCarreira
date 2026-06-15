@@ -11760,10 +11760,14 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header {
-  background: #3451C7;
+  background: #4A2D7A;
   color: rgba(255, 255, 255, 0.9);
   min-height: 220px;
   height: auto;
+}
+
+.resume-header .resume-wrapper-inner {
+  background: #4A2D7A;
 }
 
 .resume-header .picture {
