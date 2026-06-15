@@ -39,15 +39,16 @@
 		}
 
 		.profile-picture {
-			width: 220px;
-			height: auto;
-			object-fit: contain;
+			height: 220px;
+			width: auto;
+			object-fit: cover;
+			object-position: center 30%;
 		}
 
 		@media (max-width: 767.98px) {
 			.profile-picture {
-				width: 140px;
-				height: auto;
+				width: 120px;
+				height: 120px;
 			}
 			.resume-picture-holder {
 				text-align: center !important;
@@ -69,7 +70,7 @@
 	-->
 	<header class="resume-header pt-4 pt-md-0" role="banner">
 		<div class="text-center position-relative">
-			<div class="resume-wrapper-inner mx-auto text-start bg-primary shadow-lg">
+			<div class="resume-wrapper-inner mx-auto text-start shadow-lg">
 				<div class="row">
 					<div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
 						<img id="profile-photo" class="picture profile-picture" src="assets/images/laryssa.jpeg" alt="">

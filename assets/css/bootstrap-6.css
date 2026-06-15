@@ -11762,18 +11762,23 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-header {
   background: #4A2D7A;
   color: rgba(255, 255, 255, 0.9);
-  min-height: 220px;
-  height: auto;
+  height: 220px;
 }
 
 .resume-header .resume-wrapper-inner {
-  background: #4A2D7A !important;
+  background: #4A2D7A;
+}
+
+.resume-header .row {
+  height: 220px;
 }
 
 .resume-header .picture {
-  width: 220px;
-  height: auto;
-  object-fit: contain;
+  height: 220px;
+  width: auto;
+  max-width: none;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
 .resume-header .name {
@@ -11937,12 +11942,15 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   }
   .resume-header {
     height: auto;
-    min-height: auto;
+  }
+  .resume-header .row {
+    height: auto;
   }
   .resume-header .picture {
-    width: 140px;
-    height: auto;
+    width: 120px;
+    height: 120px;
     border-radius: 4px;
+    object-position: center 30%;
   }
   .resume-header .name {
     font-size: 1.5rem;
