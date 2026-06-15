@@ -36,9 +36,9 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #f188b9;
+  --bs-primary: #4969E0;
   --bs-secondary: #58677c;
-  --bs-primary-rgb: 128, 66, 95;
+  --bs-primary-rgb: 73, 105, 224;
   --bs-secondary-rgb: 88.2236024845, 102.7080745342, 123.7763975155;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
@@ -3094,19 +3094,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #80425F;
-  --bs-btn-border-color: #80425F;
+  --bs-btn-bg: #3451C7;
+  --bs-btn-border-color: #3451C7;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #6d3851;
-  --bs-btn-hover-border-color: #66354c;
-  --bs-btn-focus-shadow-rgb: 147, 94, 119;
+  --bs-btn-hover-bg: #2B44B0;
+  --bs-btn-hover-border-color: #243A98;
+  --bs-btn-focus-shadow-rgb: 52, 81, 199;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #66354c;
-  --bs-btn-active-border-color: #603247;
+  --bs-btn-active-bg: #243A98;
+  --bs-btn-active-border-color: #1F3282;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #80425F;
-  --bs-btn-disabled-border-color: #80425F;
+  --bs-btn-disabled-bg: #3451C7;
+  --bs-btn-disabled-border-color: #3451C7;
 }
 
 .btn-secondary {
@@ -3127,19 +3127,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #80425F;
-  --bs-btn-border-color: #80425F;
+  --bs-btn-color: #3451C7;
+  --bs-btn-border-color: #3451C7;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #80425F;
-  --bs-btn-hover-border-color: #80425F;
-  --bs-btn-focus-shadow-rgb: 128, 66, 95;
+  --bs-btn-hover-bg: #3451C7;
+  --bs-btn-hover-border-color: #3451C7;
+  --bs-btn-focus-shadow-rgb: 52, 81, 199;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #80425F;
-  --bs-btn-active-border-color: #80425F;
+  --bs-btn-active-bg: #3451C7;
+  --bs-btn-active-border-color: #3451C7;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #80425F;
+  --bs-btn-disabled-color: #3451C7;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #80425F;
+  --bs-btn-disabled-border-color: #3451C7;
   --bs-gradient: none;
 }
 
@@ -11711,7 +11711,7 @@ body {
 }
 
 a {
-  color: #80425F;
+  color: #3451C7;
 }
 
 a:hover {
@@ -11723,11 +11723,11 @@ a.no-text-decoration {
 }
 
 .theme-bg-primary {
-  background-color: #80425F;
+  background-color: #3451C7;
 }
 
 .theme-bg-primary-darken {
-  background-color: #3d1f2d;
+  background-color: #1C2D75;
 }
 
 a.theme-btn-on-bg, .theme-btn-on-bg {
@@ -11747,7 +11747,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .theme-progress-bar-dark {
-  background-color: #80425F;
+  background-color: #3451C7;
 }
 
 .resume-wrapper {
@@ -11760,13 +11760,16 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header {
-  background: #80425F;
+  background: #3451C7;
   color: rgba(255, 255, 255, 0.9);
-  height: 220px;
+  min-height: 220px;
+  height: auto;
 }
 
 .resume-header .picture {
   width: 220px;
+  height: 220px;
+  object-fit: cover;
 }
 
 .resume-header .name {
@@ -11798,13 +11801,13 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   height: 24px;
   border-radius: 0.125rem;
   background: white;
-  color: #80425F;
+  color: #3451C7;
 }
 
 .resume-section-title {
   font-size: 1.25rem;
   position: relative;
-  color: #80425F;
+  color: #3451C7;
 }
 
 .resume-section-title:after {
@@ -11830,7 +11833,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   display: inline-block;
   width: 3px;
   height: 100%;
-  background: #d9b5c6;
+  background: #A3B8E8;
   left: 6px;
   top: 4px;
   position: absolute;
@@ -11844,7 +11847,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   top: 3px;
   width: 15px;
   height: 15px;
-  border: 4px solid #a25378;
+  border: 4px solid #4969E0;
   background: white;
   border-radius: 50%;
 }
@@ -11930,10 +11933,19 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   }
   .resume-header {
     height: auto;
+    min-height: auto;
   }
   .resume-header .picture {
-    width: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 4px;
+  }
+  .resume-header .name {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .resume-header .title {
+    font-size: 1.1rem;
   }
 }
 .btn {
